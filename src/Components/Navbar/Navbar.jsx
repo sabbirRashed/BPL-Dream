@@ -5,7 +5,7 @@ import dolerCoin from '../../assets/dollar_1.png';
 const Navbar = () => {
     return (
         <div>
-            <div className="navbar bg-[#C7EABB] pt-10">
+            <div className="navbar pt-10">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -31,7 +31,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <div className='flex gap-2 px-4 py-2 rounded-lg font-semibold border border-[#79AE6F] hover:bg-[#79AE6F] hover:text-white'>
+                    <div className='flex gap-2 px-4 py-2 rounded-lg font-semibold border border-[#79AE6F] bg-[#EAB308] text-white hover:bg-[#1B4332] hover:text-white transition-all duration-300'>
                         <span>0 coins</span>
                         <div><img src={dolerCoin} alt="" className='w-5 h-auto'/></div>
                     </div>

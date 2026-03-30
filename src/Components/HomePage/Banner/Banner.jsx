@@ -15,11 +15,11 @@ const Banner = () => {
                             Beyond Boundaries Beyond Limits
                         </p>
                         <div className='p-1 rounded-xl  border-2 border-white inline-block'>
-                            <button className="btn btn-primary rounded-lg bg-white text-[#346739] border-none shadow-none  hover:bg-[#79AE6F] hover:text-white">Claim Free Credit</button>
+                            <button className="btn btn-primary rounded-lg bg-[#FFD700] text-[#346739] border-none shadow-none  hover:bg-[#79AE6F] hover:text-white transition-all duration-300">Claim Free Credit</button>
                         </div>
                     </div>
                 </div>
-                <div className='absolute inset-0 bg-[#285A48] rounded-2xl opacity-95 z-0'></div>
+                <div className='absolute inset-0 bg-[#1B4332] rounded-2xl opacity-95 z-0'></div>
             </div>
             
         </div>
