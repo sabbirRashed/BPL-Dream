@@ -2,12 +2,17 @@ import React from 'react';
 import Card from '../../../ui/Card';
 
 
-const AvailablePlayers = ({ player }) => {
+const AvailablePlayers = ({ playersData }) => {
 
     return (
-        <>
-         <Card player={player}></Card>
-        </>
+        <div className='container grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-10 pb-20 mx-auto'>
+
+            {
+                playersData.map((player, index) => <Card key={index} player={player}></Card>)
+            }
+
+        </div>
+
     );
 };
 
