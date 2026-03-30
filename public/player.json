@@ -6,7 +6,7 @@
         "rating": 89,
         "battingStyle": "Left-hand bat",
         "bowlingStyle": "Left-arm orthodox",
-        "price": 1300000,
+        "price": 70000,
         "playerImage": "https://i.ibb.co.com/0yMKm21s/sakib-1.jpg"
     },
     {
@@ -16,7 +16,7 @@
         "rating": 95,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm medium",
-        "price": 2000000,
+        "price": 31000,
         "playerImage": "https://i.ibb.co.com/0RJkZkPS/virat.webp"
     },
     {
@@ -26,7 +26,7 @@
         "rating": 92,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm offbreak",
-        "price": 1800000,
+        "price": 45000,
         "playerImage": "https://i.ibb.co.com/7dS4dwbw/babar.jpg"
     },
     {
@@ -36,7 +36,7 @@
         "rating": 90,
         "battingStyle": "Left-hand bat",
         "bowlingStyle": "Right-arm fast-medium",
-        "price": 1500000,
+        "price": 150000,
         "playerImage": "https://i.ibb.co.com/LdJPxP6P/bens-Stoke.jpg"
     },
     {
@@ -46,7 +46,7 @@
         "rating": 88,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm leg spin",
-        "price": 1200000,
+        "price": 35000,
         "playerImage": "https://i.ibb.co.com/CKP00S8G/rashid-khan.webp"
     },
     {
@@ -56,7 +56,7 @@
         "rating": 87,
         "battingStyle": "Left-hand bat",
         "bowlingStyle": "Right-arm medium",
-        "price": 1400000,
+        "price": 73000,
         "playerImage": "https://i.ibb.co.com/mCQF8b6z/David-warner.webp"
     },
     {
@@ -66,7 +66,7 @@
         "rating": 91,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm fast",
-        "price": 1800000,
+        "price": 65000,
         "playerImage": "https://i.ibb.co.com/Nnk5tMgw/Bhumra.avif"
     },
     {
@@ -76,7 +76,7 @@
         "rating": 88,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm offbreak",
-        "price": 1500000,
+        "price": 120000,
         "playerImage": "https://i.ibb.co.com/vCd3b0ZC/Williumson.webp"
     },
     {
@@ -86,7 +86,7 @@
         "rating": 86,
         "battingStyle": "Left-hand bat",
         "bowlingStyle": "Left-arm fast",
-        "price": 1600000,
+        "price": 82000,
         "playerImage": "https://i.ibb.co.com/6cHP0Wr0/Stark.webp"
     },
     {
@@ -96,7 +96,7 @@
         "rating": 85,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm medium",
-        "price": 1100000,
+        "price": 54000,
         "playerImage": "https://i.ibb.co.com/YxgL6qC/shreyas.jpg"
     },
     {
@@ -106,7 +106,7 @@
         "rating": 90,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm medium",
-        "price": 1650000,
+        "price": 65000,
         "playerImage": "https://i.ibb.co.com/LXFw2SNp/Jos-Buttler.jpg"
     },
     {
@@ -116,7 +116,7 @@
         "rating": 89,
         "battingStyle": "Left-hand bat",
         "bowlingStyle": "Left-arm fast",
-        "price": 1500000,
+        "price": 50000,
         "playerImage": "https://i.ibb.co.com/BKcNSp7N/Bolt.webp"
     },
     {
@@ -126,7 +126,7 @@
         "rating": 90,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm fast",
-        "price": 1580000,
+        "price": 58000,
         "playerImage": "https://i.ibb.co.com/RpSxsPfX/Rabada.webp"
     },
     {
@@ -136,7 +136,7 @@
         "rating": 93,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm medium",
-        "price": 1700000,
+        "price": 70000,
         "playerImage": "https://i.ibb.co.com/KxYTjwDt/AB-DV.webp"
     },
     {
@@ -146,7 +146,7 @@
         "rating": 87,
         "battingStyle": "Right-hand bat",
         "bowlingStyle": "Right-arm offbreak",
-        "price": 1350000,
+        "price": 50000,
         "playerImage": "https://i.ibb.co.com/TBDqcxVt/galen-max.avif"
     }
 ]

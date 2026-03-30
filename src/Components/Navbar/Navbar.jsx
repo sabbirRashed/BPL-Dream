@@ -2,7 +2,7 @@ import React from 'react';
 import logo from '../../assets/logo.png';
 import dolerCoin from '../../assets/dollar_1.png';
 
-const Navbar = () => {
+const Navbar = ({coin}) => {
     return (
         <div>
             <div className="navbar pt-10">
@@ -31,8 +31,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
-                    <div className='flex gap-2 px-4 py-2 rounded-lg font-semibold border border-[#79AE6F] bg-[#EAB308] text-white hover:bg-[#1B4332] hover:text-white transition-all duration-300'>
-                        <span>0 coins</span>
+                    <div className='flex items-center gap-2 px-4 py-2 rounded-lg font-semibold border border-[#79AE6F] bg-[#EAB308] text-white hover:bg-[#1B4332] hover:text-white transition-all duration-300'>
+                        <span>{coin} coins</span>
                         <div><img src={dolerCoin} alt="" className='w-5 h-auto'/></div>
                     </div>
                 </div>
