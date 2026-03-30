@@ -4,6 +4,7 @@ import Banner from './Components/HomePage/Banner/Banner'
 import Navbar from './Components/Navbar/Navbar'
 import Players from './Components/HomePage/players/Players';
 import LoadingSpinner from './Components/ui/LoadingSpinner';
+import { ToastContainer } from 'react-toastify';
 
 
 const fetchPlayers = async () => {
@@ -13,7 +14,7 @@ const fetchPlayers = async () => {
 
 function App() {
   const [coin, setCoin] = useState(500000);
-  console.log(coin);
+
   const playersPromise = fetchPlayers();
 
   return (
@@ -27,6 +28,9 @@ function App() {
         </Suspense>
       </div>
 
+
+{/* react tostify */}
+ <ToastContainer></ToastContainer>
     </div>
   )
 }

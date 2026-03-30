@@ -12,7 +12,8 @@ const Players = ({ playersPromise, coin, setCoin }) => {
         <div>
             <div className='flex justify-between items-center mb-8'>
                 <h2 className='text-2xl font-bold'>
-                    {selectedType === 'available' ? 'Available Players' : 'Selected Player (0/15)'}
+                    {selectedType === 'available' 
+                    ? 'Available Players' : `Selected Player (${selectedPlayers.length}/${playersData.length})`}
                 </h2>
                 <div>
                     <button
@@ -31,7 +32,7 @@ const Players = ({ playersPromise, coin, setCoin }) => {
                                 ? "bg-[#EAB308] text-white"
                                 : ""
                             }`}>
-                        Selected (0)
+                        Selected ({selectedPlayers.length})
                     </button>
                 </div>
             </div>
@@ -48,6 +49,9 @@ const Players = ({ playersPromise, coin, setCoin }) => {
                     </AvailablePlayers>
                     : <SelectedPlayers
                         selectedPlayers={selectedPlayers}
+                        setSelectedPlayers={setSelectedPlayers}
+                        coin={coin}
+                        setCoin={setCoin}
                     >
                     </SelectedPlayers>
             }
