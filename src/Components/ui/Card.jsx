@@ -6,16 +6,17 @@ import { toast } from 'react-toastify';
 const Card = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) => {
 
     const { playerName, playerCountry, battingStyle, bowlingStyle, price, playerType, playerImage } = player;
-    const [isSelected, setIsSelected] = useState(false);
+    const isSelected = selectedPlayers.find(selectedPlayer => selectedPlayer.playerName === player.playerName);
+    console.log(isSelected);
+    console.log(selectedPlayers)
 
-    const handleChoosePlayer = () => {
+    const handleChoosePlayer = (player) => {
         if (coin <= price) {
             toast.error(`Not enough coin to purches this player`);
             return;
         }
         const availableCoin = coin - price;
         toast.success(`${player.playerName} is selected`);
-        setIsSelected(true);
         setCoin(availableCoin);
         setSelectedPlayers([...selectedPlayers, player]);
        
@@ -54,7 +55,7 @@ const Card = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) =>
                     <button
                         className='btn'
                         disabled={isSelected}
-                        onClick={handleChoosePlayer}
+                        onClick={()=>{handleChoosePlayer(player)}}
                     >
                         {isSelected ? "Selected" : "Choose Player"}
                     </button>
