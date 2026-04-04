@@ -18,11 +18,11 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <h2 className='text-lg font-bold'>Subscribe</h2>
+                    <h2 className='text-lg font-bold '>Subscribe</h2>
                     <p className='mt-6 mb-4'>Subscribe to our newsletter for the latest updates.</p>
-                    <form className='border border-green-900 text-center flex justify-between rounded-lg'>
+                    <form className='border overflow-hidden border-green-900 text-center flex justify-between rounded-lg'>
                         <input type="email" placeholder='Inter your email' className='text-center'  />
-                        <button className='btn bg-green-800 border-none shadow-none text-white'>Subscribe</button>
+                        <button className='btn bg-[#1B4332] rounded-none border-none shadow-none text-white'>Subscribe</button>
                     </form>
                 </div>
             </div>

@@ -22,11 +22,11 @@ const Card = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) =>
        
     }
     return (
-        <div className="card bg-base-100  shadow-sm">
-            <figure>
+        <div className="card bg-base-100  shadow-sm border border-[#549e7f]">
+            <figure className='px-6 pt-6'>
                 <img
                     src={playerImage}
-                    alt="player" className='w-full h-50' />
+                    alt="player" className='w-full h-40 sm:h-50 rounded-lg' />
             </figure>
             <div className="card-body">
                 <h2 className="card-title">
@@ -39,7 +39,7 @@ const Card = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) =>
                         <FaFlag />
                         {playerCountry}
                     </p>
-                    <button className='btn'>{playerType}</button>
+                    <button className=''>{playerType}</button>
                 </div>
 
                 <div className="divider m-0"></div>
@@ -53,7 +53,7 @@ const Card = ({ player, coin, setCoin, selectedPlayers, setSelectedPlayers }) =>
                 <div className='flex justify-between items-center '>
                     <p className='font-semibold'>price: ${price}</p>
                     <button
-                        className='btn'
+                        className={`btn ${isSelected ? "text-white": "text-[#1B4332]"}`}
                         disabled={isSelected}
                         onClick={()=>{handleChoosePlayer(player)}}
                     >

@@ -9,9 +9,9 @@ const Banner = () => {
                 style={{backgroundImage:`url(${bannerImage})`}}>
                 <div className="hero-content text-center z-10">
                     <div className="space-y-6">
-                        <img src={heroLogo} alt="" className='mx-auto' />
-                        <h1 className="text-4xl text-white font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
-                        <p className="text-2xl text-white">
+                        <img src={heroLogo} alt="" className='mx-auto w-2/3 md:w-1/3'  />
+                        <h1 className="text-3xl md:text-4xl text-white font-bold">Assemble Your Ultimate Dream 11 Cricket Team</h1>
+                        <p className="text-lg md:text-2xl text-white">
                             Beyond Boundaries Beyond Limits
                         </p>
                         <div className='p-1 rounded-xl  border-2 border-white inline-block'>

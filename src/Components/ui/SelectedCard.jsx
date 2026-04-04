@@ -16,15 +16,15 @@ const SelectedCard = ({ player, coin, setCoin, selectedPlayers, setSelectedPlaye
         <div
             className='flex justify-between items-center border rounded-xl p-5'>
             <div className='flex items-center gap-6'>
-                <img className='h-20 w-30 rounded-xl' src={player.playerImage} alt="" />
+                <img className='h-15 w-20 rounded-xl' src={player.playerImage} alt="" />
                 <div className='font-semibold space-y-2'>
-                    <h2 className='text-xl font-bold flex items-center gap-2'><FaUser></FaUser> {player.playerName}</h2>
-                    <p>{player.playerType}</p>
+                    <h2 className='text-base md:text-xl font-bold flex items-center gap-2'><FaUser></FaUser> {player.playerName}</h2>
+                    <p className='text-sm md:text-base'>{player.playerType}</p>
                 </div>
             </div>
 
             <button
-                onClick={() => { handleSelectedPlayers(player) }} className='btn text-2xl text-red-500'>
+                onClick={() => { handleSelectedPlayers(player) }} className='btn text-xl md:text-2xl text-red-500'>
                 <MdDelete></MdDelete>
             </button>
         </div>
