@@ -1,16 +1,46 @@
-# React + Vite
+# 🏏 BPL Dream
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+BPL Dream is a modern and responsive web application inspired by the Bangladesh Premier League (BPL). It allows users to explore available players, build their dream team, and manage selected players with an intuitive and interactive UI.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 Add your live project link here (Netlify / Vercel)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Features
+ 🔄 Toggle between **Available Players** and **Selected Players**
+ ➕ Select players with a single click
+ ✅ Selected players are instantly moved to the selected list
+ 🔒 “Choose Player” button becomes disabled after selection
+ 🔔 Toast notifications for:
+- Player successfully added
+- Player successfully removed
+❌ Remove players from selected list anytime
+📭 Empty state UI: “No player selected yet”
+🔁 “Select More Players” button for smooth navigation
+📱 Fully responsive (Mobile, Tablet, Desktop)
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🖼️ UI Overview
+
+### 🔹 Available Players
+- Displays all players in card format
+- Each card includes player image, name, type, and selection button
+
+### 🔹 Selected Players
+- Displays selected players in a clean single-column layout
+- Includes remove button for each player
+- Shows empty message when no player is selected
+
+### 🛠️ Technologies Used
+- **React.js** – Component-based UI development
+- **Tailwind CSS** – Utility-first styling
+- **DaisyUI** – Pre-built UI components
+- **React Icons** – Icon library
+
+### 📚 What I Learned
+- Managing state effectively in React
+- Implementing conditional rendering
+- Handling dynamic UI updates
+- Designing responsive layouts
+- Improving user experience with feedback (toast messages)

@@ -1,7 +1,7 @@
 import React from 'react';
 import SelectedCard from '../../../ui/SelectedCard';
 
-const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin }) => {
+const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin, setSelectedType }) => {
     console.log(selectedPlayers);
 
     return (
@@ -30,11 +30,12 @@ const SelectedPlayers = ({ selectedPlayers, setSelectedPlayers, coin, setCoin })
                                 )
                             })
                         }
-
-                        <button className='btn py-6 rounded-xl text-white bg-[#1B4332]  hover:bg-[#EAB308] hover:text-white shadow-none border-none'>Add More Player</button>
-
                     </div>
             }
+            <button
+                onClick={() => { setSelectedType("available") }}
+                className='btn py-6 rounded-xl text-white bg-[#EAB308]  hover:bg-[#1B4332] hover:text-white shadow-none border-none'>Add More Player</button>
+
         </div>
     );
 };
