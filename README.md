@@ -2,10 +2,9 @@
 
 BPL Dream is a modern and responsive web application inspired by the Bangladesh Premier League (BPL). It allows users to explore available players, build their dream team, and manage selected players with an intuitive and interactive UI.
 
+
 ## 🚀 Live Demo
-
-👉 Add your live project link here (Netlify / Vercel)
-
+👉 https://bpldreamprojectwebapp.netlify.app/
 
 ## 📌 Features
  🔄 Toggle between **Available Players** and **Selected Players**
