@@ -21,6 +21,7 @@ function App() {
   return (
     <>
       <div className='w-11/12 max-w-330 mx-auto'>
+      <h2>some thing text added</h2>
         <Navbar coin={coin}></Navbar>
 
         <div className='space-y-20 md:space-y-25'>
